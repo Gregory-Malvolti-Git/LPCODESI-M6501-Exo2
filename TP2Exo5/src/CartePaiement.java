@@ -4,7 +4,6 @@ public abstract class CartePaiement {
 		System.out.println("Vous avez payez : "+ montant);
 	}
 	
-	public void autorisePaiement(double montant) {
-	};
+	public abstract boolean autorisePaiement(double montant);
 
 };
