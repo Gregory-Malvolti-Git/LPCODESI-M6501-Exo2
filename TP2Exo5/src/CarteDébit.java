@@ -4,7 +4,7 @@ public class CarteDébit extends CartePaiement {
 	
 	public CarteDébit(Compte compteAssocie) {
 		super();
-		this.compteAssocie = new Compte(1000);
+		this.compteAssocie = compteAssocie;
 	}
 	
 	@Override
