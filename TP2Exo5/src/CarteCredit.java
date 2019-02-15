@@ -1,5 +1,5 @@
 
-public class CarteCredit {
+public class CarteCredit extends CartePaiement {
 	protected double plafond;
 	protected double encours;
 	
