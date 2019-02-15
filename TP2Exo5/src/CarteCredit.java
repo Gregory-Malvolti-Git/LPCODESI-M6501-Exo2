@@ -10,6 +10,6 @@ public class CarteCredit extends CartePaiement {
 	}
 
 	public boolean autorisePaiement(double montant) {
-		return (this.encours + montant)<=plafond;
+		return (encours + montant)<=plafond;
 	}
 }
